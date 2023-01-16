@@ -11,6 +11,7 @@ export const ContactForm = () => {
   });
 
   const dispatch = useDispatch();
+
   const contacts = useSelector(state => state.phonebook.contacts);
 
   const onInputChange = event => {
